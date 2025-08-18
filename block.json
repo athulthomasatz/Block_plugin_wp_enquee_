@@ -1,0 +1,58 @@
+{
+    "apiVersion": 3,
+    "name": "simple-custom-block/hero-section",
+    "version": "1.0.0",
+    "title": "Hero Section",
+    "category": "widgets",
+    "icon": "format-image",
+    "description": "A customizable hero section block with title, subtitle and button.",
+    "keywords": ["hero", "section", "banner", "call-to-action"],
+    "textdomain": "simple-custom-block",
+    "supports": {
+        "html": false,
+        "anchor": true,
+        "customClassName": true,
+        "spacing": {
+            "margin": true,
+            "padding": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Welcome to Our Site "
+        },
+        "subtitle": {
+            "type": "string",
+            "default": "This is a custom block built with JSX"
+        },
+        "buttonText": {
+            "type": "string",
+            "default": "Learn More"
+        },
+        "buttonUrl": {
+            "type": "string",
+            "default": "###"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "#f8f9fa"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "#333333"
+        }
+    },
+    "example": {
+        "attributes": {
+            "title": "Welcome to Our Amazing Site",
+            "subtitle": "Discover what makes us special",
+            "buttonText": "Get Started",
+            "backgroundColor": "#4f46e5",
+            "textColor": "#ffffff"
+        }
+    },
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./src/editor.css",
+    "style": "file:./src/style.css"
+}

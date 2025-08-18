@@ -1,0 +1,46 @@
+/* Editor-specific styles for the hero section block */
+.wp-block-simple-custom-block-hero-section {
+    border: 2px dashed #ccc;
+    position: relative;
+}
+
+
+.wp-block-simple-custom-block-hero-section:hover {
+    border-color: #0073aa;
+}
+
+
+.wp-block-simple-custom-block-hero-section .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Editor-specific button styling */
+.wp-block-simple-custom-block-hero-section .hero-button-text {
+    cursor: text !important;
+}
+
+
+.wp-block-simple-custom-block-hero-section .hero-button-text:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+
+/* RichText styling in editor */
+.wp-block-simple-custom-block-hero-section .rich-text {
+    outline: none;
+}
+
+
+.wp-block-simple-custom-block-hero-section .rich-text:focus {
+    box-shadow: inset 0 0 0 2px #0073aa;
+    border-radius: 2px;
+}
+
+
+/* Editor placeholder text */
+.wp-block-simple-custom-block-hero-section .rich-text[data-is-placeholder-visible="true"] {
+    opacity: 0.6;
+}
