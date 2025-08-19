@@ -21,7 +21,6 @@ registerBlockType('simple-custom-block/hero-section', {
     edit: (props) => {
         const { attributes, setAttributes } = props;
         const { title, subtitle, buttonText, buttonUrl, backgroundColor, textColor } = attributes;
-
         const blockProps = useBlockProps({
             style: {
                 backgroundColor: backgroundColor,

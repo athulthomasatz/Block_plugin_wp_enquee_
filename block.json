@@ -11,12 +11,16 @@
     "supports": {
         "html": false,
         "anchor": true,
+        "inserter": true,
         "customClassName": true,
         "spacing": {
             "margin": true,
             "padding": true
         }
     },
+    "postTypes": ["*"],
+    "parent": ["woocommerce/checkout-fields-block"],
+
     "attributes": {
         "title": {
             "type": "string",
@@ -56,3 +60,4 @@
     "editorStyle": "file:./src/editor.css",
     "style": "file:./src/style.css"
 }
+
