@@ -18,8 +18,7 @@
             "padding": true
         }
     },
-    "postTypes": ["*"],
-    "parent": ["woocommerce/checkout-fields-block"],
+    
 
     "attributes": {
         "title": {

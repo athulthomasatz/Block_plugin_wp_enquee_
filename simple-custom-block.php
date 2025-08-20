@@ -3,7 +3,7 @@
  * Plugin Name: Simple Custom Block
  * Description: A simple custom block plugin using JSX
  * Version: 1.0.
- * Author: Your Name
+ * Author: latest custom block
  * Text Domain: simple-custom-block
  */
 
